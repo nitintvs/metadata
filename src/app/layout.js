@@ -18,6 +18,20 @@ export const metadata = {
     appleTouchIcon: "/logo192.png",
   },
   manifest: "/manifest.json",
+  openGraph: {
+    type: "website",
+    url: "https://beta.dsa.minict.gov.rw/",
+    title: "Rwanda",
+    description: "It is one of the applications",
+    images: [
+      {
+        url: "https://picsum.photos/200/300", // Replace with your image URL
+        width: 200,
+        height: 300,
+        alt: "Rwanda Image",
+      },
+    ],
+  },
 };
 
 
