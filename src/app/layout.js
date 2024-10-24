@@ -25,7 +25,7 @@ export const metadata = {
     description: "It is one of the applications",
     images: [
       {
-        url: "https://picsum.photos/200/300", // Replace with your image URL
+        url: "https://opengraph.b-cdn.net/production/images/ec7da481-6cd8-4fef-a295-454462bcef34.png?token=Wif8ph9YBNtaw9_5SzvmrNTgHpj1UNgh9sEnumx7RIA&height=600&width=1200&expires=33265781781", // Replace with your image URL
         width: 200,
         height: 300,
         alt: "Rwanda Image",
@@ -33,7 +33,6 @@ export const metadata = {
     ],
   },
 };
-
 
 
 export default function RootLayout({ children }) {
